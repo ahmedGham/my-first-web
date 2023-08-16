@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  width: 100vw;
+  position: fixed;
+  background-color: #81171b;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+#navbar h1 {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#choises p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 10px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Indie Flower", cursive;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#choises {
+  position: absolute;
+  right: 20%;
+  margin-top: 8px;
+}
+
+#start {
+  margin-top: 2.3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("./yemeni-restaurant.png");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#start p {
+  color: white;
+  font-size: 3rem;
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 290px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+.dish {
+  float: left;
+  margin: 3.8rem;
+  position: relative;
+  border-radius: 10%;
+  border: #a00d06 solid 3px;
+  background-color: #f38034;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+
+.order {
+  position: absolute;
+  top: 63%;
+  left: 45%;
+  background-color: #ffbb01;
+  border-radius: 100%;
+}
+
+.info {
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.2rem;
+  margin: 5px;
+}
